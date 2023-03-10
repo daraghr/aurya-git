@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloock&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  transition: 0.35s all ease;
+  
+}
+
+body {
+  margin: 0;
+  font-family: 'EB Garamond', serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0 auto;
+  height: 100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#root{
+  height: 100%;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-vertical{
+  flex-direction: column;
+}
+
+.flex-horizontal{
+  flex-direction: row;
+}
+
+.grid {
+  display: grid;
+}
+
+.title{
+  font-family: 'Gloock', serif;
+}
+
+.text{
+  font-family: 'EB Garamond', serif;
+}
